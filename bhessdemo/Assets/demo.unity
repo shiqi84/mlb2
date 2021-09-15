@@ -1388,7 +1388,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mobility: 5
-  jumpHeight: 2
   moveSpeed: 2
   moving: 0
   selected: 0

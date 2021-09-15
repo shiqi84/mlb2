@@ -6,7 +6,6 @@ using UnityEngine;
 public class baseMove : MonoBehaviour
 {
     public int mobility = 4;
-    public float jumpHeight = 2.0f;
     public float moveSpeed = 2;
     public bool moving = false;
     public bool selected = false;
@@ -20,6 +19,7 @@ public class baseMove : MonoBehaviour
     protected void init()
     {
         tiles = GameObject.FindGameObjectsWithTag("tile");
+        
 
     }
 
